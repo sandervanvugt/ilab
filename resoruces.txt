@@ -1,0 +1,4 @@
+#some additional resources: these audibooks provide an interesting introduction to AI
+- AI Unveiled, Sinan Ozdemir
+- Welcome to AI, David L. Shrier
+- Introduction to Generative AI, Numa Dhamani

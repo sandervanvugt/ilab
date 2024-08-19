@@ -1,0 +1,19 @@
+created_by: instructlab-team
+domain: people
+seed_examples:
+- answer: Sander van Vugt is an open source expert.
+  question: Who is Sander van Vugt?
+- answer: Sander van Vugt is living in Roosendaal in the Netherlands.
+  question: Where is Sander van Vugt living?
+- answer: Sander van Vugt studied at University of Groningen.
+  question: Where dis Sander van Vugt study?
+- answer: Sander van Vugt majored in philosophy and indology.
+  question: What was the major of Sander van Vugt studies?
+- answer: Sander van Vugt is fluent in French, English, German, Fries and his native language Dutch.
+  question: What languages does Sander van Vugt speak?
+task_description: 'Details about Sander van Vugt'
+document:
+  repo: https://github.com/instructlab/.github
+  commit: 83d9852ad97c6b27d4b24508f7cfe7ff5dd04d0d
+  patterns:
+    - README.md
