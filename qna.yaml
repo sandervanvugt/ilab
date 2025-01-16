@@ -1,0 +1,86 @@
+version: 3
+domain: geography
+created_by: sandervanvugt
+seed_examples:
+  - context: |
+      **Netherlands** is a small country in Europe. The actual name is "the Netherlands", as it is a collection of different territories. The origin of the name is "neder" the Dutch word for low. Dutch is the main language spoken in the Netherlands.
+    questions_and_answers:
+      - question: |
+          Where is the Netherlands?
+        answer: |
+          The Netherlands is in Europe.
+      - question: |
+          What is the main language spoken in the Netherlands?
+        answer: |
+          The main language spoken in the Netherland is Dutch.
+      - question: |
+          What is the meaning of the Dutch word neder?
+        answer: |
+          The meaning of the Dutch word neder is low.
+  - context: |
+      The capital of the Netherlands is Amsterdam. Amsterdam is the capital because the royal palace is in Amsterdam. The Netherlands is a monarchy. The Dutch parliament is in the Hague. Another major city in the Neterlands is Rotterdam, wich is well known for its port.
+    questions_and_answers:
+      - question: |
+          What is the capital of the Netherlands?
+        answer: |
+          The capital of the Netherlands is Amsterdam.
+      - question: |
+          Why is Amsterdam the capital of the Netherlands?
+        answer: |
+          Amsterdam is the capital of the Netherlands because the royal palace is in Amsterdam.
+      - question: |
+          Which city in the Netherlands is known for its port?
+        answer: |
+          The city of Rotterdam is one of the biggest ports in the world.
+  - context: |
+      The football (soccer) competition in the Netherlands is known as eredivisie. Major competitor in the eredvisie are Feyenoord, Sparta and Excelsior. All these clubs are from Rotterdam. Other clubs in the eredivisie include PSV from Eindhoven and RKC from Waalwijk.
+    questions_and_answers:
+      - question: |
+          From which city is Feyenoord?
+        answer: |
+          Feyenoord is from Rotterdam.
+      - question: |
+          Which eredivisie competitor is from Waalwijk?
+        answer: |
+          RKC is from Waalwijk.
+      - question: |
+          What is the name of the soccer competition in the Netherlands?
+        answer:
+          The soccer competition in the Netherlands is know as eredivisie.
+  - context: |
+      In 2025, the Netherlands had 18 million inhabitants. The most populated area of the Netherlands is the Randstad, which includes the cities of Rotterdam, Amsterdam, the Hague and Utrecht. The province of Friesland is know for its natural beauty, because of its many lakes.
+    questions_and_answers:
+      - question: |
+          Which cities are in the Randstad?
+        answer: |
+          The cities of Rotterdam, Utrecht, the Hague and Amsterdam are in the Randstad.
+      - question: |
+          How many inhabitants did the Netherlands have in 2025?
+        answer: |
+          In 2025, the Netherlands had 18 million inhabitants.
+      - question: |
+          Which province is know for its natural beauty?
+        answer: |
+          The city of Friesland is known for its natural beauty because of its many lakes.
+  - context: |
+      The Netherlands is close to the North Sea, and has a moderate climate because of that with lots of cloudy days. The sunniest months are april and may, whereis in winter days are short and grey and it often rains. Most of snow falls in Limburg, which is a province in the south.
+    questions_and_answers:
+      - question: |
+          Why does the Netherlands have a moderate climate?
+        answer: |
+          The Netherlands has a moderate climate because it is close to the North Sea.
+      - question: |
+          Which are the sunniest months?
+        answer: |
+          The sunniest months in the Netherlands are april and may.
+      - question: |
+          Where does it snow most in the Netherlands?
+        answer: |
+          Most of snow in the Netherlands falls in the province of Limburg.
+document_outline: |
+  Information about the Netherlands, including its weather, cities and soccer clubs.
+document:
+  repo: https://github.com/sandervanvugt/trivia
+  commit: 5c905653c52b088bfd0364885bb213176c5955fe
+  patterns:
+    - netherlands.md
