@@ -1,0 +1,500 @@
+    9  ilab model download
+   10  cd ~/.local/share/instructlab/taxonomy/knowledge/
+   11  ls
+   12  mkdir -p miscellaneous_unknown/organizations/losf
+   13  cp ~/Documents/books\ and\ vids/github/livingopensourcefoundation/qna.yaml ./miscellaneous_unknown/organizations/losf/
+   14  ilab taxonomy diff
+   15  cp ~/Documents/books\ and\ vids/github/livingopensourcefoundation/qna.yaml ./miscellaneous_unknown/organizations/losf/
+   16  ilab taxonomy diff
+   17  cp ~/Documents/books\ and\ vids/github/livingopensourcefoundation/qna.yaml ./miscellaneous_unknown/organizations/losf/
+   18  ilab taxonomy diff
+   19  cp ~/Documents/books\ and\ vids/github/livingopensourcefoundation/qna.yaml ./miscellaneous_unknown/organizations/losf/
+   20  cp ~/Documents/books\ and\ vids/github/livingopensourcefoundation/qna.yaml ./miscellaneous_unknown/organizations/losf/
+   21  ilab taxonomy diff
+   22  history
+   23  ilab data generate --num-instructions 25
+   24  ilab data list
+   25  ls ~/.local/share/instructlab/datasets/2025-05-31_073921/
+   26  less ~/.local/share/instructlab/datasets/2025-05-31_073921/knowledge_train_msgs_2025-05-31T07_39_53.jsonl 
+   27  ilab model train --device mps --data-path ~/.local/share/instructlab/datasets/2025-05-31_073921/knowledge_train_msgs_2025-05-31T07_39_53.jsonl 
+   28  history | grep serve
+   29  cd ~/.local
+   30  find -name "*gguf"
+   31  find . -name "*gguf"
+   32  ilab model serve --modelpath ./share/instructlab/checkpoints/hf_format/samples_56/pytorch_model-Q4_K_M.gguf 
+   33  ilab model serve --model-path ./share/instructlab/checkpoints/hf_format/samples_56/pytorch_model-Q4_K_M.gguf 
+   34  ilab model serve --model-path ./share/instructlab/checkpoints/hf_format/samples_56/pytorch_model-Q4_K_M.gguf 
+   35  cd
+   36  cd ilab/
+   37  ls
+   38  cd 310525
+   39  ls
+   40  ilab -h
+   41  ilab --help
+   42  ilab config --help
+   43  ilab config show | less
+   44  history | grep 'ilab model serve'
+   45  ilab model serve
+   46  history | grep 'model serve'
+   47  ls -a
+   48  cd ~/.config/
+   49  ls -a
+   50  cd instructlab/
+   51  ls
+   52  ls -a
+   53  cd
+   54  find . -name "samples_56" -type d 2>/dev/null
+   55  ilab model serve --model-path ./.local/share/instructlab/checkpoints/hf_format/samples_56/pytorch_model-Q4_K_M.gguf 
+   56  cd
+   57  cd Documents/books\ and\ vids/github/kubernetes/
+   58  scp student@192.168.29.140:/tmp/may* .
+   59  scp student@192.168.29.140:/tmp/may* .
+   60  rm ~/.ssh/known_hosts
+   61  scp student@192.168.29.140:/tmp/may* .
+   62  git-up.sh
+   63  cd ../rhcsa10/
+   64  ls
+   65  cat Containerfile 
+   66  ls -l
+   67  cd ..
+   68  ls
+   69  ls
+   70  find . -name "kube-setup.sh"
+   71  cd livingopensourcefoundation/
+   72  vim qna.yaml 
+   73  git-up.sh
+   74  cat qna.yaml | wc -l
+   75  vim qna.yaml 
+   76  git-up.sh
+   77  vim qna.yaml 
+   78  ls
+   79  brew install pandoc
+   80  ls
+   81  cp Living\ Open\ Source\ Foundation.docx losf.docx
+   82  pandoc input.docx -f docx -t markdown -o output.md
+   83  pandoc input.docx -f docx -t markdown -o output.md
+   84  pandoc losf.docx -f docx -t markdown -o losf.md
+   85  ls
+   86  less losf.md 
+   87  vim qna.yaml 
+   88  git-up.sh
+   89  git history
+   90  git log
+   91  vim qna.yaml 
+   92  history
+   93  top
+   94  cd
+   95  cd ilab/
+   96  cd 310525/
+   97  source venv/bin/activate
+   98  ilab model chat
+   99  ilab model chat
+  100  cd 
+  101  cd Documents/books\ and\ vids/github/rhcsa10/
+  102  scp 192.168.29.100:/tmp/ks.cfg .
+  103  scp student@192.168.29.100:/tmp/ks.cfg .
+  104  git-up.sh
+  105  cd
+  106  find . -name "config.yaml"
+  107  vim ~/.config/instructlab/config.yaml
+  108  cd
+  109  cd ilab/
+  110  ilab model chat
+  111  ilab model chat
+  112  cd ~/Documents/books\ and\ vids/github/
+  113  ls -lrt
+  114  cd livingopensourcefoundation/
+  115  ls
+  116  less losf.md
+  117  vim qna.yaml 
+  118  cd
+  119  cd ilab/
+  120  ilab model chat
+  121  cd
+  122  cd .ssh
+  123  ls
+  124  cat id_rsa.pub 
+  125  vim config
+  126  cd
+  127  ssh 10.59.81.101
+  128  ssh sillibot@10.59.81.201
+  129  ssh sillibot@10.59.81.101
+  130  ssh sillibot@37.58.215.65
+  131  cd Documents/books\ and\ vids/github/
+  132  cd rhcsa9
+  133  scp student@192.168.29.139:/tmp/june* .
+  134  git-up.sh
+  135  scp student@192.168.29.100:/tmp/june* .
+  136  git-up.sh
+  137  ssh student@192.168.52.160
+  138  scp student@192.168.29.100:/tmp/june* .
+  139  git-up.sh
+  140  00~sudo launchctl kickstart -k system/com.wacom.TabletDriver
+  141  sudo launchctl kickstart -k system/com.wacom.TabletDriver
+  142  cd ..
+  143  ls
+  144  cd edai
+  145  ls
+  146  cat urlcheck.yml 
+  147  cd ..
+  148  cd ansiblefundamentals/
+  149  scp student@192.168.29.146:/tmp/jun* .
+  150  git-up.sh
+  151  cd ..
+  152  ls
+  153  find . -name users-dictionary
+  154  cd rhce9/vars/
+  155  ls
+  156  cd ..
+  157  cd ..
+  158  mkdir ansible_ccat/arrays
+  159  cp -R ansiblecvc/basics/arrays/ ansible_ccat/arrays/
+  160  tree ansible_ccat/arrays/
+  161  ls -R ansible_ccat/arrays/
+  162  cd ansible_ccat/
+  163  git-up.sh
+  164  cd ../selinux/
+  165  scp student@192.168.29.143:/tmp/june* .
+  166  git-up.sh
+  167  cd ../microservices/
+  168  vim docker-compose.yml 
+  169  cd Documents/books\ and\ vids/github/
+  170  cd ckad
+  171  vim pvc.yaml 
+  172  cd ..
+  173  cd
+  174  cd ilab/
+  175  ls
+  176  cd 310525/
+  177  ls
+  178  cd 
+  179  cd .config/
+  180  ls
+  181  cd instructlab/
+  182  ls
+  183  cd ../../
+  184  sudo find . -name "qna.yaml" -type f 2>/dev/null
+  185  .local/share/instructlab/taxonomy
+  186  cd .local/share/instructlab/taxonomy
+  187  ls
+  188  cd knowledge/
+  189  ls
+  190  cd geography/
+  191  ls
+  192  cd countries/
+  193  ls
+  194  cd Netherlands/
+  195  ls
+  196  vim qna.yaml
+  197  cd ~/Documents/books\ and\ vids/github/ilab
+  198  ls
+  199  lsc -l
+  200  ls -l
+  201  vim qna.yaml 
+  202  cd knowledge/
+  203  ls
+  204  cd ..
+  205  cd ..
+  206  ls
+  207  ls -lrt
+  208  cd livingopensourcefoundation/
+  209  ls
+  210  history | less
+  211  ls
+  212  sudo find ~ -name "losf.md" 2>/dev/null
+  213  ls
+  214  less losf.md
+  215  vim qna.yaml 
+  216  history | less
+  217  history | grep 'ilab model serve'
+  218  cd
+  219  ilab model serve --model-path ./.local/share/instructlab/checkpoints/hf_format/samples_56/pytorch_model-Q4_K_M.gguf 
+  220  cd ilab/
+  221  cd 310525/
+  222  ls
+  223  source venv/bin/activate
+  224  ilab model serve --model-path ~/.local/share/instructlab/checkpoints/hf_format/samples_56/pytorch_model-Q4_K_M.gguf 
+  225  exit
+  226  source venv/bin/activate
+  227  ilab model chat
+  228  cd Documents/books\ and\ vids/github/
+  229  mkdir zra
+  230  cd zra
+  231  echo "# zra" >> README.md
+  232  git init
+  233  git add README.md
+  234  git commit -m "first commit"
+  235  git branch -M main
+  236  git remote add origin https://github.com/sandervanvugt/zra.git
+  237  git push -u origin main
+  238  vim fixvb.sh
+  239  ./git-up.sh
+  240  vim updaterepo.sh
+  241  ./git-up.sh
+  242  git-up.sh
+  243  vim changerepo.sh
+  244  ls
+  245  ls -lrt
+  246  cat changerepo.sh 
+  247  rm changerepo.sh 
+  248  vim updaterepo.sh 
+  249  chmod +x *
+  250  git-up.sh 
+  251  vim fixvb.sh 
+  252  cd
+  253  ssh 192.168.29.143 -u student
+  254  ssh student@192.168.29.143 
+  255  cd Documents/books\ and\ vids/github/
+  256  ls
+  257  cd linai
+  258  ls
+  259  scp student@192.168.52.160:/tmp/jul* .
+  260  git-up.sh
+  261  cd /Library/PrivilegedHelperTools/
+  262  ls
+  263  rm -rf com.wacom*
+  264  sudo rm -rf com.wacom*
+  265  cd /Library/Preference
+  266  cd /Library/Preferences
+  267  ls
+  268  ls *wacom*
+  269  ls *ablet*
+  270  ls -ld *ablet*
+  271  sudo rm -rf Tablet/
+  272  pwd
+  273  cd
+  274  cd Documents/books\ and\ vids/github/kubernetes/
+  275  scp student@192.168.29.146:/tmp/july* .
+  276  scp student@192.168.29.146:/tmp/july* .
+  277  git-up.sh
+  278  cd ..
+  279  cd rhcsalabs/
+  280  ls
+  281  mkdir ../rhcsa10/exam
+  282  cp exam-* ../rhcsa10/exam/
+  283  cd ../rhcsa10/exam/
+  284  ls
+  285  vim exam-task1
+  286  vim exam-task1.sh
+  287  cp exam-task1.sh exam-task3.sh
+  288  vim exam-task1.sh 
+  289  vim exam-task2.sh 
+  290  vim exam-task3.sh 
+  291  vim exam-task3.sh 
+  292  vim exam-task4.sh 
+  293  vim exam-task5.sh 
+  294  cd ..
+  295  cd ..
+  296  cd cka
+  297  ls
+  298  ls *pdf
+  299  vim setup-kubetools.sh 
+  300  scp student@192.168.29.139:/tmp/july* .
+  301  git-up.sh
+  302  cd ../linfun
+  303  ls
+  304  cat RESOURCES.txt 
+  305  vim README.md 
+  306  vim RESOURCES.txt 
+  307  git-up.sh
+  308  pwd
+  309  cd
+  310  cd Documents/books\ and\ vids/github/kubernetes/
+  311  scp student@192.168.29.146:/tmp/july* .
+  312  scp student@192.168.29.146:/tmp/july* .
+  313  git-up.sh
+  314  cd ..
+  315  cd rhcsalabs/
+  316  ls
+  317  mkdir ../rhcsa10/exam
+  318  cp exam-* ../rhcsa10/exam/
+  319  cd ../rhcsa10/exam/
+  320  ls
+  321  vim exam-task1
+  322  vim exam-task1.sh
+  323  cp exam-task1.sh exam-task3.sh
+  324  vim exam-task1.sh 
+  325  vim exam-task2.sh 
+  326  vim exam-task3.sh 
+  327  vim exam-task3.sh 
+  328  vim exam-task4.sh 
+  329  vim exam-task5.sh 
+  330  cd ..
+  331  cd ..
+  332  cd cka
+  333  ls
+  334  ls *pdf
+  335  vim setup-kubetools.sh 
+  336  scp student@192.168.29.139:/tmp/july* .
+  337  git-up.sh
+  338  cd ../linfun
+  339  ls
+  340  cat RESOURCES.txt 
+  341  vim README.md 
+  342  vim RESOURCES.txt 
+  343  git-up.sh
+  344  /Users/alexandervanvugt/Documents/netware ; exit;
+  345  cd Documents/books\ and\ vids/2025
+  346  ls
+  347  cd RHCSA\ 10\ -\ book/
+  348  ls
+  349  ls
+  350  cd ..
+  351  cd 2022
+  352  cd ..
+  353  cd 2022
+  354  ls
+  355  cd RHCSA\ book/
+  356  ls
+  357  cd PDFs
+  358  ls
+  359  pwd
+  360  cd ../../../
+  361  cd github/
+  362  cd ilab/
+  363  ls
+  364  cd ../luth/
+  365  scp sander@192.168.29.138:/tmp/july*
+  366  scp student@192.168.29.138:/tmp/july*
+  367  scp student@192.168.29.138:/tmp/july* .
+  368  git-up.sh
+  369  cd ../systemd/
+  370  scp student@192.168.29.138:/tmp/july* .
+  371  git-up.sh
+  372  cd ../rhcsa10/
+  373  ls
+  374  vim containers.conf
+  375  vim anaconda-ks.cfg 
+  376  mv anaconda-ks.cfg ks.cfg
+  377  cd
+  378  cd Downloads/
+  379  ls -lrt
+  380  cd 
+  381  cd Documents/books\ and\ vids/github/linuxin3hours/
+  382  vim RESOURCES.txt 
+  383  git-up.sh
+  384  scp student@192.168.29.141:/tmp/july* .
+  385  git-up.sh
+  386  cd ../..
+  387  cd 2025/LinuxPlus/
+  388  ls
+  389  mkdir AR
+  390  mkdir FINAL
+  391  cd
+  392  cd ilab/
+  393  ls
+  394  mkdir 310724
+  395  cd 310724
+  396  python3 -m venv --upgrade-deps venv
+  397  source venv/bin/activate
+  398  pip cache remove llama_cpp_python
+  399  pip install instructlab
+  400  echo 31JULY2025
+  401  export ILAB_FEATURE_SCOPE=DevPreviewNoUpgrade
+  402  ilab model download -rp ibm-granite/granite-embedding-125m-english
+  403  ilab rag convert --input-dir /Users/alexandervanvugt/Documents/books\ and\ vids/2022/RHCSA\ book/PDFs/ --output-dir ./ragfiles
+  404  pwd
+  405  cd
+  406  cd Documents/books\ and\ vids/github/ckad
+  407  vim RESOURCE.TXT 
+  408  git-up.sh
+  409  cd ../cka
+  410  vim RESOURCES.txt 
+  411  git-up.sh
+  412  cd ../lfcs
+  413  vim RESOURCES.txt
+  414  git-up.sh
+  415  cd /Library/PrivilegedHelperTools/
+  416  ls com.w*
+  417  ls -d com.w*
+  418  sudo rm -rf com.wacom*
+  419  cd
+  420  cd Documents/books\ and\ vids/
+  421  cd github/
+  422  cd ansiblefundamentals/
+  423  scp student 192.168.29.137:/tmp/aug* .
+  424  scp student@192.168.29.137:/tmp/aug* .
+  425  git-up.sh
+  426  ssh student@192.168.29.142
+  427  cd ../linfun
+  428  scp student@192.168.29.145:/tmp/aug* .
+  429  git-up.sh
+  430  cd ../linuxplus/
+  431  ls
+  432  cd ..
+  433  pwd
+  434  ls
+  435  find . -name "kube-setup.sh"
+  436  cd linfun
+  437  scp student@192.168.29.145:/tmp/aug* .
+  438  git-up.sh
+  439  cd /Applications/
+  440  ls
+  441  tccutil reset ScreenCapture com.techsmith.camtasia2023
+  442  ls
+  443  osascript -e 'id of "Wacom Tablet.localized"
+  444  '
+  445  tccutil reset ALL com.techsmith.camtasia2023
+  446  tccutil reset ALL com.wacom.WacomDesktopCenter
+  447  tccutil reset ScreenCapture com.techsmith.camtasia2023
+  448  tccutil reset Microphone com.techsmith.camtasia2023
+  449  tccutil reset Accessibility com.techsmith.camtasia2023
+  450  tccutil reset ListenEvent com.techsmith.camtasia2023
+  451  tccutil reset InputMonitoring com.techsmith.camtasia2023
+  452  tccutil reset Accessibility com.wacom.WacomDesktopCenter
+  453  tccutil reset InputMonitoring com.wacom.WacomDesktopCenter
+  454  tccutil reset InputMonitoring com.wacom."Wacom Tablet.localized"
+  455  history
+  456  tccutil reset ScreenCapture com.techsmith.camtasia2023
+  457  tccutil reset ScreenCapture com.techsmith.camtasia2023
+  458  tccutil reset Microphone com.techsmith.camtasia2023
+  459  tccutil reset Accessibility com.techsmith.camtasia2023
+  460  tccutil reset ListenEvent com.techsmith.camtasia2023
+  461  tccutil reset InputMonitoring com.techsmith.camtasia2023
+  462  sudo killall -9 screensharingd
+  463  sudo killall -9 tccd
+  464  tccutil reset ScreenCapture
+  465  tccutil reset Accessibility
+  466  tccutil reset InputMonitoring
+  467  tccutil reset Microphone
+  468  killall Camtasia
+  469  killall "Camtasia 2025"
+  470  log stream --predicate 'subsystem == "com.apple.screencapturekit"' --info
+  471  defaults write com.garmin.express loggingLevel -int 5
+  472  sudo find / -type d -name "GarminConnect"
+  473  sudo find / -type d -name "GarminConnect" 2>/dev/null
+  474  sudo find / -type f -name "*.fit"
+  475  sudo find / -type f -name "*.fit" 2>/dev/null
+  476  log stream --process "Garmin Express"
+  477  find ~/Library/Application\ Support/Garmin/Express/RegisteredDevices -name "*.fit" -print0 | xargs -0 ls -lh | sort -k5 -h
+  478  cd ../rhcsa10/
+  479  scp student@192.168.29.137:/tmp/aug* .
+  480  git-up.sh
+  481  scp student@192.168.29.137:/tmp/aug* .
+  482  git-up.sh
+  483  cd ../rhcsa9/
+  484  cd labs
+  485  ls
+  486  cat live-lab9-grade.sh 
+  487  ls
+  488  cd ../../rhcsa10/
+  489  scp student@192.168.29.137:/tmp/aug* .
+  490  scp student@192.168.29.137:/tmp/aug* .
+  491  scp student@192.168.29.200:/tmp/aug* .
+  492  git-up.sh
+  493  cd ..
+  494  cd linuxplus/
+  495  ls
+  496  cp setup_httpd.yaml deploy-webserver.yaml
+  497  vim deploy-webserver.yaml 
+  498  git-up.sh
+  499  ls
+  500  pwd
+  501  cd Documents/books\ and\ vids/github/
+  502  grep -il 'chisha' *
+  503  grep -Ril 'chisha' *
+  504  ls
+  505  cd livingopensourcefoundation/
+  506  ls
+  507  history | less
+  508  history > ~/Documents/books\ and\ vids/github/ilab/MAC_HISTORY.txt
