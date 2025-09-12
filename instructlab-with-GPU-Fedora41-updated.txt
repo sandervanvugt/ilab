@@ -1,0 +1,25 @@
+sudo dnf install -y gcc-c++ make cmake ninja-build git python3.11-devel autoconf automake libtool pkgconf
+export CUDA_HOME=/usr/local/cuda
+export PATH="$CUDA_HOME/bin:$PATH"
+export LD_LIBRARY_PATH="$CUDA_HOME/lib64:${LD_LIBRARY_PATH:-}"
+echo export CUDA_HOME=/usr/local/cuda >> ~/.bashrc
+echo export PATH="$CUDA_HOME/bin:$PATH" >> ~/.bashrc
+echo export LD_LIBRARY_PATH="$CUDA_HOME/lib64:${LD_LIBRARY_PATH:-}" >> ~/.bashrc
+nvidia-smi 
+python3.11 -m venv ~/venvs/ilab
+source ~/venvs/ilab/bin/activate
+pip install -U pip wheel setuptools
+pip install --index-url https://download.pytorch.org/whl/cu128   torch==2.8.0 torchvision==0.23.0
+pip install --force-reinstall "numpy==1.26.4"
+pip install --no-build-isolation flash-attn==2.8.3
+export CMAKE_ARGS="-DLLAMA_CUDA=on -DLLAMA_CUBLAS=on -DLLAMA_NATIVE=off -DLLAMA_CUDA_F16=on -DCMAKE_BUILD_TYPE=Release"
+export FORCE_CMAKE=1
+pip install --no-binary=llama-cpp-python,llama_cpp_python             --no-cache-dir             "llama-cpp-python==0.3.6"
+echo $CUDA_HOME 
+export CMAKE_ARGS="-DGGML_CUDA=on \
+                   -DGGML_CUDA_F16=on \
+                   -DLLAMA_NATIVE=off \
+                   -DCMAKE_BUILD_TYPE=Release"
+pip install --no-binary=llama-cpp-python,llama_cpp_python   --no-cache-dir  --force-reinstall  llama-cpp-python==0.3.6"
+pip install "instructlab[cuda]==0.26.1"
+pip install --force-reinstall "numpy==1.26.4"
