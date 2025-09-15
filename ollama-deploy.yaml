@@ -1,0 +1,54 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ollama
+  namespace: llm-demo
+spec:
+  replicas: 1
+  selector:
+    matchLabels: { app: ollama }
+  template:
+    metadata:
+      labels: { app: ollama }
+    spec:
+      containers:
+        - name: ollama
+          image: ollama/ollama:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 11434
+          env:
+            - name: OLLAMA_MODELS
+              value: /models              # store in ephemeral emptyDir
+            - name: OLLAMA_KEEP_ALIVE
+              value: 5m
+          volumeMounts:
+            - name: models
+              mountPath: /models
+          # request one NVIDIA GPU (GPU Operator handles injection)
+          resources:
+            limits:
+              nvidia.com/gpu: 1
+          # simple readiness probed on HTTP root (server returns JSON)
+          readinessProbe:
+            httpGet:
+              path: /
+              port: 11434
+            initialDelaySeconds: 5
+            periodSeconds: 5
+      volumes:
+        - name: models
+          emptyDir: {}                    # <-- ephemeral storage, no PV/PVC
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: ollama
+  namespace: llm-demo
+spec:
+  selector: { app: ollama }
+  ports:
+    - name: http
+      port: 11434
+      targetPort: 11434
+      protocol: TCP
